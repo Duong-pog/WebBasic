@@ -1,0 +1,73 @@
+body{
+    background-color:bisque;
+    background: url(../images/main-bg.jpg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+h4.lastprice{
+    color: grey;
+    text-decoration-line: line-through;
+}
+h4.sale{
+    right: 0px;
+    top: 0px;
+    position: absolute;
+    background-color: red;
+}
+h4.price{
+    text-decoration-line: underline;
+}
+div.footer{
+    background-color: rgb(15, 22, 31);
+    margin-bottom:10px;
+    padding-bottom: -25px;
+    padding-top:20px;
+    padding-left: 200px; 
+    padding-right:200px;
+}
+div.section{
+    margin: 40px 250px;
+    border: solid red 2px;
+    text-align: center;
+    background-color:grey;
+}
+div.toolbar{
+    background-color: rgb(59, 77, 236);
+    padding: 20px 0px;
+    position: fixed ;
+    width: 100%;
+    top: -5px;
+    text-align: center;
+    z-index: 9999
+}
+div.container{
+    background-color: white;
+    margin: 20px 200px;
+    position : relative;
+    padding: 20px 0px;
+    opacity: 1;
+    z-index: 9998;
+}
+img.icon{
+    border-radius: 20px;
+    position: absolute;
+    bottom: 0px;
+    right:10px;
+    width: 50px;
+    height : 50px;
+}
+img.bookpreview{
+    margin-top: 20px;
+    width:400px;
+    height:450px;
+}
+a {
+    text-decoration: none;
+    margin-right: 20px;
+}
+footer{
+    color:white
+}
+hr{
+    opacity: 0.5;
+}
