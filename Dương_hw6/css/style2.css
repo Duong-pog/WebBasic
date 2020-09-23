@@ -1,0 +1,90 @@
+header{
+    position: fixed;
+    width:100%;
+    background-color: rgb(212, 182, 182);
+    font-size:22px;
+    text-align: center;
+    top:0;
+}
+.noi-bat{
+    display: inline-block;
+}
+.link-nav{
+    text-decoration: none;
+    margin: 0 20px;
+}
+a.link-nav:hover{
+    background: rgb(194, 0, 0);
+    color:white;
+}
+main{
+    margin: 0 180px;
+    border: 1px solid red;
+    margin-top: 50px;
+}
+.tin-chinh{
+    width: 550px;
+    border: 1px solid blue;
+}
+a.link-anh>img{
+    width: 550px
+}
+a#header-chinh{
+    text-decoration: none;
+    color: black;
+}
+a#header-chinh:hover{
+    color: red;
+}
+div.tin-chinh>p{
+    margin-top: -15px; 
+}
+.tin-phu{
+    border: 1px solid green;
+    margin-top:20px;
+    width:550px;
+}
+.anh-tin-nho{
+    display: block;
+    width: 160px;
+}
+.tin-nho{
+    border:1px solid darkorange;
+    width:150px;
+    display: inline-block;
+    margin: 5px 12px;
+}
+.tin-nho>a:hover{
+    color:red;
+}
+a.noidungtinnho{
+    text-decoration: none;
+    color:black;
+}
+div.tin-khac{
+    display:inline-block;
+    width: 150px;
+    margin-left: 50px;
+    vertical-align: top;
+    font-size: 14px;
+}
+div.tin-khac>a{
+    margin-bottom: 20px;
+    display: block;
+    text-align: left;
+    text-decoration: none;
+}
+div.tin-khac>a:hover{
+    color:red;
+}
+div.quang-cao{
+    display:inline-block;
+    width: 150px;
+    margin-left: 50px;
+    vertical-align: top;
+}
+div.quang-cao>a>img{
+    width: 250px;
+    height: 900px;
+    display: block;
+}
