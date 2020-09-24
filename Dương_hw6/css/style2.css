@@ -71,6 +71,10 @@ div.tin-khac{
     font-size: 14px;
     text-align: center;
 }
+div.tin-khac>img{
+    text-align: center;
+    margin-left:-25px;
+}
 div.tin-khac>a{
     margin-bottom: 20px;
     display: block;
