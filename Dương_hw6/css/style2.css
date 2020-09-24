@@ -62,11 +62,14 @@ a.noidungtinnho{
     color:black;
 }
 div.tin-khac{
+    border:1px solid red;
     display:inline-block;
     width: 150px;
-    margin-left: 50px;
+    padding: 0px 50px;
+    margin-right: -50px;
     vertical-align: top;
     font-size: 14px;
+    text-align: center;
 }
 div.tin-khac>a{
     margin-bottom: 20px;
