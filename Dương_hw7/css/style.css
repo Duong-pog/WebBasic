@@ -80,3 +80,15 @@ main>div>a>img.icon{
     right:0px;
     
 }
+footer{
+    background-color: snow;
+    text-align: center;
+    opacity: 0.8;
+}
+footer>div>a{
+    text-decoration: none;
+}
+footer>div>a:hover{
+    background-color: thistle;
+    color:red;
+}
