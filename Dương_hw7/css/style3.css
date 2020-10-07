@@ -1,0 +1,64 @@
+body{
+    background-image: url("../images/main-bg.jpg");
+    background-repeat: no-repeat;
+    margin-left:800px;
+    margin-right:100px;
+}
+main{
+    background-color: rgb(205, 191, 191);
+    border: 1.5px solid blue;
+    opacity: 0.9;
+    padding-bottom: 100px;
+}
+form.userinfo{
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+form.otherinfo{
+    padding-left:15px;
+    
+}
+.nameinput{
+    border-radius: 5px;
+    background-color: white;
+    width:250px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 7.5px 0px;
+}
+.emailinput{
+    border-radius: 5px;
+    background-color: white;
+    width:500px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding: 7.5px 0px;
+}
+p{
+    color:rgb(75, 75, 75);
+}
+div.dob{
+    margin: 10px 0px;
+}
+button{
+    background-color:blue;
+    color: white;
+    font-size: 25px;
+    width: 200px;
+    height: 50px;
+    font-weight: 30px;
+}
+.button{
+    width: 100%;
+    text-align: center;
+}
+.already{
+    width: 100%;
+    text-align: center;
+}
+.already>p{
+    display: inline;
+}
+

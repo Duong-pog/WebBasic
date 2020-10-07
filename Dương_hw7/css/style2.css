@@ -1,0 +1,46 @@
+body{
+    background-image: url("../images/main-bg.jpg");
+    background-repeat: no-repeat;
+}
+main{
+    margin: 100px 400px;
+    z-index: 9999;
+    border-radius: 10px;
+    background-color:rgb(210, 173, 217, 0.5);
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 200 px
+}
+h1.title{
+    font-family: cursive;
+}
+main>form{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+div.username>input{
+    background-color: rgb(231, 231, 231);
+    margin: 5px 0px;
+    width: 400px;
+    height: 30px;
+    opacity: 0.5;
+}
+form>a{
+    width: 400px;
+    background-color:lightblue;
+    color:white;
+    margin-top:20px;
+    text-decoration: none;
+    padding:20px;
+    font-size: 30px;
+}
+.Reassure{
+    width: 400px;
+    margin-top:20px;
+    font-size: 20px;
+}
+.Reassure>p{
+    display:inline
+}
