@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "box" style="width: 175px; height: 175px; background-color: blue;">
+
+    </div>
+    <button onclick="changeRed()" id="red">Red</button>
+    <button id="green" onclick="changeGreen()">Green</button>
+    <button id="black" onclick="changeBlue()">Blue</button>
+    <button id="yellow" onclick="changeYellow()">Yellow</button>
+    <script>
+        var box = document.getElementById('box')
+        function changeRed(){
+            box.style.backgroundColor = "red"
+        }
+        function changeGreen(){
+            box.style.backgroundColor = "green"
+        }
+        function changeBlue(){
+            box.style.backgroundColor = "blue"
+        }
+        function changeYellow(){
+            box.style.backgroundColor = "yellow"
+        }
+    </script>
+</body>
+</html>
